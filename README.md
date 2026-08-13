@@ -39,6 +39,7 @@ In this challenge, I build one mini web development project every day to improve
 | Day 19 | Music Player | ✅ Completed |
 | Day 20 | Countdown Timer | ✅ Completed |
 | Day 21 | Login & Signup Form | ✅ Completed |
+| Day 22 | URL Shortener UI | ✅ Completed |
 
 ---
 
@@ -70,10 +71,10 @@ In this challenge, I build one mini web development project every day to improve
 
 ## 🚀 Upcoming Projects
 
-- Day 22
 - Day 23
 - Day 24
 - Day 25
+- Day 26
 - ...
 - Day 30
 
