@@ -40,6 +40,7 @@ In this challenge, I build one mini web development project every day to improve
 | Day 20 | Countdown Timer | ✅ Completed |
 | Day 21 | Login & Signup Form | ✅ Completed |
 | Day 22 | URL Shortener UI | ✅ Completed |
+| Day 23 | Typing Speed Test | ✅ Completed |
 
 ---
 
@@ -71,10 +72,10 @@ In this challenge, I build one mini web development project every day to improve
 
 ## 🚀 Upcoming Projects
 
-- Day 23
 - Day 24
 - Day 25
 - Day 26
+- Day 27
 - ...
 - Day 30
 
