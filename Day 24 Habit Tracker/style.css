@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #74b9ff, #0987);
+}
+
+.container{
+  width: 500px;
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2d3436;
+}
+
+.input-box{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+#habitInput {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+#habitInput:focus {
+  border-color: #74b9ff;
+}
+
+button {
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #74b9ff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  background: #4834d4;
+}
+
+.progress-section{
+  padding: 15px;
+  margin-bottom: 20px;
+  background: #f1f2f6;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.progress-section h2{
+  font-size: 18px;
+  color: #2d3436;
+}
+
+#progress {
+  color: #6c5ce7;
+}
+
+#habitList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.habit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border: 1px solid #dfe6e9;
+}
+
+.habit-name {
+  font-size: 17px;
+  color: #2d3436;
+}
+
+.habit.completed .habit-name {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.delete-btn{
+  background: #ff7675;
+  padding: 10px 10px;
+}
+
+.delete-btn:hover{
+  background: #d63031;
+}
+
+.complete-btn{
+ background: #00b894;
+ padding: 8px 12px;
+ margin-left: 5px;
+}
+
+.complete-btn:hover{
+  background: #008f72;
+}
+
+#resetBtn {
+  display: block;
+  margin: 15px auto 0;
+}
+
+#resetBtn:hover {
+  background: #2d3436;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+  .input-box {
+    flex-direction: column;
+  }
+
+  #habitInput {
+    width: 100%;
+  }
+
+  .habit {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
