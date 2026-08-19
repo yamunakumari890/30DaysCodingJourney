@@ -43,6 +43,8 @@ In this challenge, I build one mini web development project every day to improve
 | Day 23 | Typing Speed Test | ✅ Completed |
 | Day 24 | Habit Tracker | ✅ Completed |
 | Day 25 | Memory Card Game | ✅ Completed | 
+| Day 26 | Color Palette Generator | ✅ Completed |
+| Day 27 | Tip Calculator | ✅ Completed |
 
 ---
 
@@ -74,8 +76,6 @@ In this challenge, I build one mini web development project every day to improve
 
 ## 🚀 Upcoming Projects
 
-- Day 26
-- Day 27
 - Day 28
 - Day 29
 - ...
