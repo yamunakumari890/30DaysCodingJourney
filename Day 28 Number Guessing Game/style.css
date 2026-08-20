@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #3368A0, #66A3BF );
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  max-width: 100%;
+  padding: 35px;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+h1 {
+ margin-bottom: 12px;
+ color: #222;
+ font-size: 30px;
+}
+
+.instruction {
+  margin-bottom: 25px;
+  color: #605B51;
+  font-size: 16px;
+}
+
+#guessInput {
+  width: 100%;
+  padding: 13px 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+#guessInput:focus {
+  border-color: #3368A0;
+}
+
+#checkBtn {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: #3368A0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#checkBtn:hover {
+  background: #66A3BF;
+  transform: scale(1.03);
+}
+
+
+#message {
+  min-height: 25px;
+  margin-top: 22px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
+
+#attempts {
+  margin: 12px;
+  font-weight: bold;
+  color: #605B51;
+}
+
+#restartBtn {
+  margin-top: 20px;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #3368A0;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#restartBtn:hover {
+  background: #66A3BF;
+  transform: scale(1.03);
+}
+
+@media (max-width: 450px) {
+  .container {
+    padding: 26px;
+  }
+  h1{
+    font-size: 26px;
+  }
+}
