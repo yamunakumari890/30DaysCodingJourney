@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+  transition: 0.3s;
+}
+
+.container {
+  width: 450px;
+  max-width: 100Vh;
+  padding: 30px;
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #2d3436;
+}
+
+.gradient-box{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #6c5ce7, #00bb94);
+  transition: 0.5s;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  color: white;
+  transition: 0.5s;
+}
+
+.gradient-box h2{
+  font-size: 22px;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.colors {
+  margin-bottom: 20px;
+}
+
+.colors p {
+  margin: 8px 0;
+  color: #636e72;
+  font-size: 16px;
+}
+
+.color span {
+  padding: 5px 8px;
+  background: #f1f2f6;
+  border-radius: 6px;
+  color: #2d3436;
+  font-weight: bold;
+}
+
+
+#generateBtn,
+#coptBtn{
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #6c5ce7;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#generateBtn:hover {
+ background: #4834d4;
+ transform: scale(1.05);
+}
+
+.css-container {
+  margin: 25px 0;
+  padding: 15px;
+  background: #f1f2f6;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.css-container p {
+  margin-bottom: 8px;
+  color: #636e72;
+  font-weight: bold;
+}
+
+#cssCode{
+  display: block;
+  word-break: break-word;
+  color: #2d3436;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+#copyBtn{
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  background: #00b894;
+  color: white;
+}
+
+#copyBtn:hover{
+  background: #009f9f;
+  transform: scale(1.5s);
+}
+
+@media (max-width: 500px ) {
+  .container {
+    padding: 25px 20px;
+  }
+  h1{
+    font-size: 24px;
+  }
+  .gradient-box {
+    height: 170px;
+  }
+}
