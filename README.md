@@ -77,9 +77,25 @@ In this challenge, I build one mini web development project every day to improve
 
 ---
 
-## 🚀 Upcoming Projects
+ ## 🚀 What's Next?
 
-- Day 30
+The 30 Days Coding Journey is officially complete! 🎉
+
+Now I will move towards more practical and advanced web development projects.
+
+### 🔥 Next Phase Goals
+
+- 🌐 Build real-world web applications.
+- ⚡ Work with APIs and live data.
+- 💾 Practice Local Storage and JSON.
+- 🔄 Learn and use Async/Await.
+- 🧠 Improve JavaScript problem-solving skills.
+- 🎨 Create better and responsive UI/UX.
+- 🚀 Build advanced JavaScript projects.
+- 🐙 Improve Git and GitHub workflow.
+- 💻 Create portfolio-ready projects.
+
+> **Day 30 is not the end — it's the beginning of the next level! 🚀**
 
 ---
 
