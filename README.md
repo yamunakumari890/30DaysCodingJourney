@@ -47,6 +47,7 @@ In this challenge, I build one mini web development project every day to improve
 | Day 27 | Tip Calculator | ✅ Completed |
 | Day 28 | Number Guessing Game | ✅ Completed |
 | Day 29 | Background Color Changer | ✅ Completed |
+| Day 30 | Gradient Color Generator | ✅ Completed |
 
 ---
 
